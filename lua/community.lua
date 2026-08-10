@@ -47,6 +47,6 @@ return {
   { import = "astrocommunity.search.sad-nvim" },
   { import = "astrocommunity.search.grug-far-nvim" },
   { import = "astrocommunity.syntax.hlargs-nvim" },
-  -- { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
-  -- { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+  { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
+  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
 }
