@@ -29,7 +29,7 @@ return {
   { import = "astrocommunity.git.openingh-nvim" },
   { import = "astrocommunity.indent.mini-indentscope" },
   { import = "astrocommunity.lsp.lsp-signature-nvim" },
-  { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
+  -- { import = "astrocommunity.lsp.nvim-lsp-file-operations" },
   { import = "astrocommunity.lsp.lspsaga-nvim" },
   { import = "astrocommunity.pack.biome" },
   { import = "astrocommunity.pack.cpp" },
