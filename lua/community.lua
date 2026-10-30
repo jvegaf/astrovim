@@ -6,7 +6,6 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.ai.opencode-nvim" },
-  { import = "astrocommunity.color.ccc-nvim" },
   { import = "astrocommunity.color.nvim-highlight-colors" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
@@ -14,6 +13,7 @@ return {
   { import = "astrocommunity.colorscheme.vscode-nvim" },
   { import = "astrocommunity.completion.blink-cmp" },
   { import = "astrocommunity.git.mini-diff" },
+  { import = "astrocommunity.color.ccc-nvim" },
   { import = "astrocommunity.completion.blink-cmp-emoji" },
   { import = "astrocommunity.completion.blink-cmp-git" },
   { import = "astrocommunity.completion.blink-cmp-tmux" },
