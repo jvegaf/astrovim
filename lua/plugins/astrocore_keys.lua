@@ -21,8 +21,8 @@ return {
         ["<C-S>"] = false,
 
         -- ["<Leader>e"] = { "<cmd>NvimTreeFocus<cr>", desc = "NvimTree" },
-        ["<A-.>"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
-        ["<A-,>"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
+        ["<L>"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
+        ["<H>"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
 
         -- mappings seen under group name "Buffer"
         ["q"] = {
@@ -43,6 +43,9 @@ return {
         ["sl"] = { "<C-w>l", desc = "Move Win right" },
         ["<Esc>"] = { ":nohlsearch<Bar>:echo<CR>", desc = "Cancel search highlighting" },
         ["<A-1>"] = { "<cmd>lua Snacks.terminal.toggle()<cr>", desc = "Toggle terminal" },
+        ["<Leader>gb"] = { ":lua Snacks.picker.git_branches()<cr>" },
+        ["<Leader>gz"] = { ":lua Snacks.picker.git_log()<cr>" },
+
         -- ["<A-2>"] = { "<cmd>ToggleTerm direction=float<cr>", desc = "ToggleTerm float" },
         -- ["<A-4>"] = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", desc = "ToggleTerm vertical split" },
         -- ["L"] = {

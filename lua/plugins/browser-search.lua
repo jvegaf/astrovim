@@ -75,6 +75,7 @@ return {
         pulls_search = "https://github.com/search?q=%s&type=pullrequests",
       },
       searchix = "https://searchix.ovh/?query=%s",
+      astrocommunity = "https://astronvim.github.io/astrocommunity/",
       npm = "https://www.npmjs.com/search?q=%s",
       pipy = "https://pypi.org/search/?q=%s",
       stackoverflow = "https://stackoverflow.com/search?q=%s",
