@@ -43,6 +43,11 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "yes", -- sets vim.opt.signcolumn to yes
         wrap = false, -- sets vim.opt.wrap
+        foldenable = true, -- sets vim.opt.foldenable
+        foldmethod = "expr", -- sets vim.opt.foldmethod
+        foldexpr = "nvim_treesitter#foldexpr()", -- sets vim.opt.fold
+        foldlevel = 10, -- sets vim.opt.foldlevel
+        foldlevelstart = 9, -- sets vim.opt.foldlevelstart
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
